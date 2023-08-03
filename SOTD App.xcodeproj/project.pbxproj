@@ -14,6 +14,7 @@
 		2348E8962A7B3302006B3370 /* SOTD_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E8952A7B3302006B3370 /* SOTD_AppTests.swift */; };
 		2348E8A02A7B3302006B3370 /* SOTD_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E89F2A7B3302006B3370 /* SOTD_AppUITests.swift */; };
 		2348E8A22A7B3302006B3370 /* SOTD_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E8A12A7B3302006B3370 /* SOTD_AppUITestsLaunchTests.swift */; };
+		2348E8AF2A7B332E006B3370 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E8AE2A7B332E006B3370 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		2348E89B2A7B3302006B3370 /* SOTD AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SOTD AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2348E89F2A7B3302006B3370 /* SOTD_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOTD_AppUITests.swift; sourceTree = "<group>"; };
 		2348E8A12A7B3302006B3370 /* SOTD_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOTD_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2348E8AE2A7B332E006B3370 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				2348E8832A7B3300006B3370 /* SOTD_AppApp.swift */,
+				2348E8AE2A7B332E006B3370 /* SplashScreen.swift */,
 				2348E8852A7B3300006B3370 /* ContentView.swift */,
 				2348E8872A7B3302006B3370 /* Assets.xcassets */,
 				2348E8892A7B3302006B3370 /* SOTD_App.entitlements */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2348E8AF2A7B332E006B3370 /* SplashScreen.swift in Sources */,
 				2348E8862A7B3300006B3370 /* ContentView.swift in Sources */,
 				2348E8842A7B3300006B3370 /* SOTD_AppApp.swift in Sources */,
 			);
