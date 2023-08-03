@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2348E8842A7B3300006B3370 /* SOTD_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E8832A7B3300006B3370 /* SOTD_AppApp.swift */; };
+		2348E8862A7B3300006B3370 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E8852A7B3300006B3370 /* ContentView.swift */; };
+		2348E8882A7B3302006B3370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2348E8872A7B3302006B3370 /* Assets.xcassets */; };
+		2348E88C2A7B3302006B3370 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2348E88B2A7B3302006B3370 /* Preview Assets.xcassets */; };
+		2348E8962A7B3302006B3370 /* SOTD_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E8952A7B3302006B3370 /* SOTD_AppTests.swift */; };
+		2348E8A02A7B3302006B3370 /* SOTD_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E89F2A7B3302006B3370 /* SOTD_AppUITests.swift */; };
+		2348E8A22A7B3302006B3370 /* SOTD_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E8A12A7B3302006B3370 /* SOTD_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2348E8922A7B3302006B3370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2348E8782A7B3300006B3370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2348E87F2A7B3300006B3370;
+			remoteInfo = "SOTD App";
+		};
+		2348E89C2A7B3302006B3370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2348E8782A7B3300006B3370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2348E87F2A7B3300006B3370;
+			remoteInfo = "SOTD App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2348E8802A7B3300006B3370 /* SOTD App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOTD App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2348E8832A7B3300006B3370 /* SOTD_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOTD_AppApp.swift; sourceTree = "<group>"; };
+		2348E8852A7B3300006B3370 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2348E8872A7B3302006B3370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2348E8892A7B3302006B3370 /* SOTD_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SOTD_App.entitlements; sourceTree = "<group>"; };
+		2348E88B2A7B3302006B3370 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2348E8912A7B3302006B3370 /* SOTD AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SOTD AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2348E8952A7B3302006B3370 /* SOTD_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOTD_AppTests.swift; sourceTree = "<group>"; };
+		2348E89B2A7B3302006B3370 /* SOTD AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SOTD AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2348E89F2A7B3302006B3370 /* SOTD_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOTD_AppUITests.swift; sourceTree = "<group>"; };
+		2348E8A12A7B3302006B3370 /* SOTD_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOTD_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2348E87D2A7B3300006B3370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2348E88E2A7B3302006B3370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2348E8982A7B3302006B3370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2348E8772A7B3300006B3370 = {
+			isa = PBXGroup;
+			children = (
+				2348E8822A7B3300006B3370 /* SOTD App */,
+				2348E8942A7B3302006B3370 /* SOTD AppTests */,
+				2348E89E2A7B3302006B3370 /* SOTD AppUITests */,
+				2348E8812A7B3300006B3370 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2348E8812A7B3300006B3370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2348E8802A7B3300006B3370 /* SOTD App.app */,
+				2348E8912A7B3302006B3370 /* SOTD AppTests.xctest */,
+				2348E89B2A7B3302006B3370 /* SOTD AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2348E8822A7B3300006B3370 /* SOTD App */ = {
+			isa = PBXGroup;
+			children = (
+				2348E8832A7B3300006B3370 /* SOTD_AppApp.swift */,
+				2348E8852A7B3300006B3370 /* ContentView.swift */,
+				2348E8872A7B3302006B3370 /* Assets.xcassets */,
+				2348E8892A7B3302006B3370 /* SOTD_App.entitlements */,
+				2348E88A2A7B3302006B3370 /* Preview Content */,
+			);
+			path = "SOTD App";
+			sourceTree = "<group>";
+		};
+		2348E88A2A7B3302006B3370 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2348E88B2A7B3302006B3370 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2348E8942A7B3302006B3370 /* SOTD AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2348E8952A7B3302006B3370 /* SOTD_AppTests.swift */,
+			);
+			path = "SOTD AppTests";
+			sourceTree = "<group>";
+		};
+		2348E89E2A7B3302006B3370 /* SOTD AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2348E89F2A7B3302006B3370 /* SOTD_AppUITests.swift */,
+				2348E8A12A7B3302006B3370 /* SOTD_AppUITestsLaunchTests.swift */,
+			);
+			path = "SOTD AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2348E87F2A7B3300006B3370 /* SOTD App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2348E8A52A7B3302006B3370 /* Build configuration list for PBXNativeTarget "SOTD App" */;
+			buildPhases = (
+				2348E87C2A7B3300006B3370 /* Sources */,
+				2348E87D2A7B3300006B3370 /* Frameworks */,
+				2348E87E2A7B3300006B3370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SOTD App";
+			productName = "SOTD App";
+			productReference = 2348E8802A7B3300006B3370 /* SOTD App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2348E8902A7B3302006B3370 /* SOTD AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2348E8A82A7B3302006B3370 /* Build configuration list for PBXNativeTarget "SOTD AppTests" */;
+			buildPhases = (
+				2348E88D2A7B3302006B3370 /* Sources */,
+				2348E88E2A7B3302006B3370 /* Frameworks */,
+				2348E88F2A7B3302006B3370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2348E8932A7B3302006B3370 /* PBXTargetDependency */,
+			);
+			name = "SOTD AppTests";
+			productName = "SOTD AppTests";
+			productReference = 2348E8912A7B3302006B3370 /* SOTD AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2348E89A2A7B3302006B3370 /* SOTD AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2348E8AB2A7B3302006B3370 /* Build configuration list for PBXNativeTarget "SOTD AppUITests" */;
+			buildPhases = (
+				2348E8972A7B3302006B3370 /* Sources */,
+				2348E8982A7B3302006B3370 /* Frameworks */,
+				2348E8992A7B3302006B3370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2348E89D2A7B3302006B3370 /* PBXTargetDependency */,
+			);
+			name = "SOTD AppUITests";
+			productName = "SOTD AppUITests";
+			productReference = 2348E89B2A7B3302006B3370 /* SOTD AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2348E8782A7B3300006B3370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2348E87F2A7B3300006B3370 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2348E8902A7B3302006B3370 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2348E87F2A7B3300006B3370;
+					};
+					2348E89A2A7B3302006B3370 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2348E87F2A7B3300006B3370;
+					};
+				};
+			};
+			buildConfigurationList = 2348E87B2A7B3300006B3370 /* Build configuration list for PBXProject "SOTD App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2348E8772A7B3300006B3370;
+			productRefGroup = 2348E8812A7B3300006B3370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2348E87F2A7B3300006B3370 /* SOTD App */,
+				2348E8902A7B3302006B3370 /* SOTD AppTests */,
+				2348E89A2A7B3302006B3370 /* SOTD AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2348E87E2A7B3300006B3370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2348E88C2A7B3302006B3370 /* Preview Assets.xcassets in Resources */,
+				2348E8882A7B3302006B3370 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2348E88F2A7B3302006B3370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2348E8992A7B3302006B3370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2348E87C2A7B3300006B3370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2348E8862A7B3300006B3370 /* ContentView.swift in Sources */,
+				2348E8842A7B3300006B3370 /* SOTD_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2348E88D2A7B3302006B3370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2348E8962A7B3302006B3370 /* SOTD_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2348E8972A7B3302006B3370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2348E8A22A7B3302006B3370 /* SOTD_AppUITestsLaunchTests.swift in Sources */,
+				2348E8A02A7B3302006B3370 /* SOTD_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2348E8932A7B3302006B3370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2348E87F2A7B3300006B3370 /* SOTD App */;
+			targetProxy = 2348E8922A7B3302006B3370 /* PBXContainerItemProxy */;
+		};
+		2348E89D2A7B3302006B3370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2348E87F2A7B3300006B3370 /* SOTD App */;
+			targetProxy = 2348E89C2A7B3302006B3370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2348E8A32A7B3302006B3370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2348E8A42A7B3302006B3370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2348E8A62A7B3302006B3370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SOTD App/SOTD_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SOTD App/Preview Content\"";
+				DEVELOPMENT_TEAM = FY6D88PP57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cowboy-shondon.SOTD-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2348E8A72A7B3302006B3370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SOTD App/SOTD_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SOTD App/Preview Content\"";
+				DEVELOPMENT_TEAM = FY6D88PP57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cowboy-shondon.SOTD-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2348E8A92A7B3302006B3370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY6D88PP57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cowboy-shondon.SOTD-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOTD App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SOTD App";
+			};
+			name = Debug;
+		};
+		2348E8AA2A7B3302006B3370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY6D88PP57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cowboy-shondon.SOTD-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOTD App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SOTD App";
+			};
+			name = Release;
+		};
+		2348E8AC2A7B3302006B3370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY6D88PP57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cowboy-shondon.SOTD-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SOTD App";
+			};
+			name = Debug;
+		};
+		2348E8AD2A7B3302006B3370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY6D88PP57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cowboy-shondon.SOTD-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SOTD App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2348E87B2A7B3300006B3370 /* Build configuration list for PBXProject "SOTD App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2348E8A32A7B3302006B3370 /* Debug */,
+				2348E8A42A7B3302006B3370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2348E8A52A7B3302006B3370 /* Build configuration list for PBXNativeTarget "SOTD App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2348E8A62A7B3302006B3370 /* Debug */,
+				2348E8A72A7B3302006B3370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2348E8A82A7B3302006B3370 /* Build configuration list for PBXNativeTarget "SOTD AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2348E8A92A7B3302006B3370 /* Debug */,
+				2348E8AA2A7B3302006B3370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2348E8AB2A7B3302006B3370 /* Build configuration list for PBXNativeTarget "SOTD AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2348E8AC2A7B3302006B3370 /* Debug */,
+				2348E8AD2A7B3302006B3370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2348E8782A7B3300006B3370 /* Project object */;
+}
